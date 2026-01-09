@@ -4,7 +4,7 @@ def main():
     with open("input.txt", "r") as f:
         num = int(f.read().strip())
 
-    result = num + 2   # change this to +4 later
+    result = num + 4   # change this to +4 later
 
     with open("output.txt", "w") as f:
         f.write(str(result))
